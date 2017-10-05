@@ -1,0 +1,24 @@
+{
+	"name": "nodejs",
+	"description": "Node.JS & UI5 combined",
+	"version": "0.0.1",
+	"main": "server.js",
+	"dependencies": {
+		"express": "^4.13.4",
+		"morgan": "^1.7.0",
+		"object-assign": "4.1.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mwapro/nodejs.git"
+	},
+	"scripts": {
+		"start": "node server.js"
+	},
+	"author": "Markus Waldner <markus.waldner@nttdata.com>",
+	"license": "CC-BY-1.0",
+	"bugs": {
+		"url": "https://github.com/mwapro/nodejs/issues"
+	},
+	"homepage": "https://github.com/mwapro/nodejs"
+}
