@@ -2,8 +2,6 @@ var express = require('express'),
     app     = express(),
     morgan  = require('morgan');
 
-Object.assign=require('object-assign')
-
 app.engine('html', require('ejs').renderFile);
 app.use(morgan('combined'))
 
@@ -31,4 +29,4 @@ var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || process.env.
 //
 app.listen(port, ip);
 console.log('Server running on http://%s:%s', ip, port);
-module.exports = app ;
+//module.exports = app ;
