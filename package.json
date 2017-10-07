@@ -11,6 +11,10 @@
 		"express": "^4.13.4",
 		"object-assign": "4.1.0"
 	},
+	"engine": {
+		"node": "*",
+		"npm": "*"
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/mwapro/nodejs.git"
